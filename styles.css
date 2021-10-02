@@ -1,0 +1,22 @@
+#main {
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.toDoList {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 200px;
+}
+
+.toDoListElement {
+    background-color: antiquewhite;
+    
+}
+
+.card {
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+}
