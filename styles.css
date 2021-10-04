@@ -1,13 +1,32 @@
-#main {
-    background-color: antiquewhite;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+h1 {
     display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+#main {
+    display: flex;
+    padding: 2em;
+}
+
+#addToDoListDiv {
+    padding: 2em;
+    margin-left: 2em;
 }
 
 .toDoList {
     display: flex;
     flex-direction: column;
+    border-radius: 2em;
     border: 2px solid black;
-    height: 200px;
+    height: 600px;
+    padding: 2em;
+    margin: 2em;
 }
 
 .toDoListElement {
@@ -16,7 +35,29 @@
 }
 
 .card {
-    background-color: blue;
+    background-color: grey;
     width: 100px;
     height: 30px;
+}
+
+.menu {
+    height: 500px;
+    width: 500px;
+    top: 200px;
+    left: 200px;
+    background-color:blanchedalmond;
+    z-index: 101;
+    position: absolute;
+}
+
+.menuheading {
+
+}
+
+.toDoListHover {
+    background-color: beige;
+}
+
+.dragging {
+    background-color: brown;
 }
